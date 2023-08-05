@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Header Example</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic styling for the main header */
+        .main-header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            height: 60px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+        }
+
+        /* Styling for navigation links */
+        .nav-list {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-list li {
+            margin: 0 15px;
+        }
+
+        .nav-list a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-list a:hover {
+            color: #f39c12;
+        }
+
+        /* Styling for the page content */
+        .content {
+            padding: 50px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+<header class="main-header">
+    <div class="container">
+        <h1 class="logo">MyWebsite</h1>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="/">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="/login">login</a></li>
+                <li><a href="/register">register</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!--<section class="content">-->
+<!--    &lt;!&ndash; Your page content here &ndash;&gt;-->
+<!--</section>-->
+</body>
+</html>
